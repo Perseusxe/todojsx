@@ -24,8 +24,8 @@ export default function Home() {
       </button>
 
       {isOpen && (
-        <div className="modal"
-        ><div style={{marginTop: "40px"}}>Modal</div>
+        <div className="modal">
+          <div style={{ marginTop: "40px" }}>Modal</div>
           <input
             type="text"
             style={{
@@ -33,15 +33,11 @@ export default function Home() {
               width: "300px",
               backgroundColor: "transparent",
               border: "1px solid white",
-              
             }}
           ></input>
-          
         </div>
       )}
-      <div
-        className="todo"
-      ></div>
+      <div className="todo"></div>
     </div>
   );
 }
